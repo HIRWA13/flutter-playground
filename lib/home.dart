@@ -7,12 +7,6 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text("Flearnoo"),
-        backgroundColor: Colors.blueAccent[100],
-      ),
-      bottomNavigationBar: const BottomNavigation(),
-    );
+    return const BottomNavigation();
   }
 }
