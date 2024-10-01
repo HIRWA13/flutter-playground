@@ -17,9 +17,11 @@ class HomePage extends StatelessWidget {
         Container(
           height: 300,
           width: 400,
-          decoration: BoxDecoration(border: Border.all(color: Colors.green)),
-          child: Image.network(
-            "https://images.pexels.com/photos/1670977/pexels-photo-1670977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          decoration: BoxDecoration(border: Border.all(color: Colors.red)),
+          child: FadeInImage.assetNetwork(
+            placeholder: "assets/images/placeholder.jpg",
+            image:
+                "https://images.pexels.com/photos/4835419/pexels-photo-4835419.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
             fit: BoxFit.cover,
           ),
         )
