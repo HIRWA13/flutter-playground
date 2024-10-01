@@ -5,9 +5,16 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      alignment: Alignment.center,
-      child: const Text("This is homepage"),
+    return Column(
+      children: [
+        Container(
+          height: 200,
+          width: 200,
+          decoration: BoxDecoration(border: Border.all(color: Colors.black)),
+          child:
+              Image.asset("assets/images/placeholder.jpg", fit: BoxFit.cover),
+        ), 
+      ],
     );
   }
 }
