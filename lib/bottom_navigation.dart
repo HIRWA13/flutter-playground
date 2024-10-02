@@ -1,4 +1,5 @@
 import 'package:flearno/pages/homepage.dart';
+import 'package:flearno/pages/notespage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
@@ -14,7 +15,7 @@ class _BottomNavigationState extends State<BottomNavigation> {
 
   final List<Widget> _pages = [
     const HomePage(),
-    Container(color: Colors.green[100]),
+    const NotesPage(),
     Container(color: Colors.blue[100]),
     Container(color: Colors.orange[100]),
     Container(color: Colors.purple[100]),

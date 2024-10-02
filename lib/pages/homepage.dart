@@ -21,10 +21,10 @@ class HomePage extends StatelessWidget {
           child: FadeInImage.assetNetwork(
             placeholder: "assets/images/placeholder.jpg",
             image:
-                "https://images.pexels.com/photos/4835419/pexels-photo-4835419.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
             fit: BoxFit.cover,
           ),
-        )
+        ),
       ],
     );
   }
